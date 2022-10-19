@@ -9,8 +9,10 @@ public class Test {
 			}
 		}
 
-		whlie (1) {
+		int counter = 0;
+		whlie (counter != 5) {
 			System.out.println("Hi how are you?");
+			counter++;
 		}
 	}
 
